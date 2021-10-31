@@ -1,0 +1,1 @@
+g++ -fPIC  -O0 -Wall -Werror -g -fPIC -g  -shared -Wl,-soname,libhosttest.so -o ../lib/libhosttest.so CMakeFiles/hosttest.dir/src/host.cpp.o CMakeFiles/hosttest.dir/src/wrapper.cpp.o 

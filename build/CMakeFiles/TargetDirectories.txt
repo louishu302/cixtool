@@ -1,0 +1,3 @@
+/home/lohu/workspace/cixtool/build/CMakeFiles/rebuild_cache.dir
+/home/lohu/workspace/cixtool/build/CMakeFiles/hosttest.dir
+/home/lohu/workspace/cixtool/build/CMakeFiles/edit_cache.dir

@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/host.h
+stdio.h
+-
+stdint.h
+-
+
+/home/lohu/workspace/cixtool/src/host.cpp
+host.h
+/home/lohu/workspace/cixtool/src/host.h
+stdio.h
+-
+stdint.h
+-
+stdlib.h
+-
+time.h
+-
+
+/home/lohu/workspace/cixtool/src/wrapper.cpp
+python3.7m/Python.h
+-
+stdint.h
+-
+host.h
+/home/lohu/workspace/cixtool/src/host.h
+
